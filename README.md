@@ -4,12 +4,15 @@ In this class we aimed to apply deep learning techniques in both vision and natu
 
 ## Approach
 
-We used mainly a T5 model during the whole class. Below is the architecture I tried with the experiments in this repo, where I wanted to do an end2end solution to the problem with most of my efforts aimed at the pre-training stage.
+We used mainly a T5 model during the whole class. Below is the architecture I tried with the experiments in this repo. I wanted to do an end2end solution to the problem with most of my efforts aimed at the pre-training stage. Therefore the models are almost identical on all experiments and the changes are done mostly to the dataset and to a few hyperparameters.
 
 There were two pre-training tracks:
 1) SQuAD 2.0
+
 	1.1) OCR Task
-	1.2) VQA Task with original questions/answers from the dataset.
+	
+	1.2) VQA Task with original questions/answers from the dataset
+	
 
 2) WikiText synthetic MLM and VQA task.
 
